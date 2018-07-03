@@ -18,10 +18,16 @@ A hotel's HVAC system can adjust AC settings of various rooms and halls. These h
 
 Composition
 What do we mean by 'composition' in reference to object-oriented programming?
-
+Composition is the ability to extend and reuse other classes in a class.
 
 When would you use composition? Provide a simple example in Java.
+A car class can have an engine class that retrieves "driving force" and passes into a gear class, which in turn carries that rotational power to the "wheel" classed objects. It doesn't have to do this whole job on its own body. It can call the related objects and their methods to pass necessary i/o.
 
 What is/are the advantage(s) of using composition?
+See above. It aids in many ways.
+1. cleaner code
+2. accountability dispersed
+3. relations revealed
 
 What happens to the behaviours when the object composed of them is destroyed?
+they are destroyed as well.
